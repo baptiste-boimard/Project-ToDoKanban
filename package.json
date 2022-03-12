@@ -1,38 +1,38 @@
 {
-    "name": "okanban-back-olivierhachette",
-    "version": "1.0.0",
-    "description": "## JOUR 2",
-    "main": "index.js",
-    "directories": {
-      "doc": "doc"
-    },
-    "scripts": {
-      "start": "node-dev --no-notify index.js",
-      "dev": "npx watchify -e ./src/app.js -o ./public/assets/js/bundle.js -d",
-      "production": "npx browserify -p tinyify -e ./public/src/app.js -o ./assets/js/bundle.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/O-clock-Atome/oKanban-back-OlivierHachette.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/O-clock-Atome/oKanban-back-OlivierHachette/issues"
-    },
-    "homepage": "https://github.com/O-clock-Atome/oKanban-back-OlivierHachette#readme",
-    "dependencies": {
-      "browserify": "^17.0.0",
-      "cors": "^2.8.5",
-      "dotenv": "^16.0.0",
-      "express": "^4.17.3",
-      "multer": "^1.4.4",
-      "node-dev": "^7.1.0",
-      "pg": "^8.7.3",
-      "sequelize": "^6.17.0",
-      "sortablejs": "^1.14.0",
-      "tinyify": "^3.0.0",
-      "watchify": "^4.0.0"
-    }
+  "name": "okanban-back-olivierhachette",
+  "version": "1.0.0",
+  "description": "## JOUR 2",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "node-dev --no-notify index.js",
+    "dev": "npx watchify -e ./src/app.js -o ./public/assets/js/bundle.js -d",
+    "production": "npx browserify -p tinyify -e ./public/src/app.js -o ./assets/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Atome/oKanban-back-OlivierHachette.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Atome/oKanban-back-OlivierHachette/issues"
+  },
+  "homepage": "https://github.com/O-clock-Atome/oKanban-back-OlivierHachette#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "multer": "^1.4.4",
+    "node-dev": "^7.1.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0",
+    "sortablejs": "^1.14.0",
+    "tinyify": "^3.0.0",
+    "watchify": "^4.0.0"
   }
+}

@@ -18,6 +18,16 @@
     "type": "git",
     "url": "git+https://github.com/O-clock-Atome/oKanban-back-OlivierHachette.git"
   },
+  "development": {
+    "url": "DATABASE_URL",
+    "dialect": "postgres",
+    "dialectOptions": {
+        "ssl": {
+            "require": true,
+            "rejectUnauthorized": false
+        }
+    }
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -7,6 +7,22 @@ const listController = require ('./controllers/listController');
 const cardController = require ('./controllers/cardController');
 const labelController = require ('./controllers/labelController');
 
+//DB LIGN HEROKU
+router.get('/db', async (req, res) => {
+    try {
+      const client = await pool.connect();
+      const result = await client.query('SELECT * FROM test_table');
+      const results = { 'results': (result) ? result.rows : null};
+      res.render('pages/db', results );
+      client.release();
+    } catch (err) {
+      console.error(err);
+      res.send("Error " + err);
+    }
+  })
+
+
+
 //page lists
 //----------
 router.route('/lists')

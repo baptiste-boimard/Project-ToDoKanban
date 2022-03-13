@@ -2,7 +2,11 @@
 require('dotenv').config();
 const PORT = process.env.PORT || 3333;
 
-
+const {Pool} = require('pg');
+const pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+    ssl: true
+});
 
 //Express
 const express = require('express')

@@ -5,7 +5,7 @@ const utilsModule = require('./utils');
 
 const app = {
     
-    baseUrl : 'https://project-todokanban.herokuapp.com/:3030/',
+    baseUrl : 'https://project-todokanban.herokuapp.com/',
     
     
     //TODO GROUPER DANS LE MEME PROJET QUE LE BACK

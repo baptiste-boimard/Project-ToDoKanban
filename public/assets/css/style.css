@@ -6,3 +6,8 @@ body {
 .card-lists {
   overflow-x: auto;
 }
+
+button {
+    margin-left: -10px;
+    margin-bottom: 10px;
+}

@@ -7,9 +7,7 @@ const app = {
     
     baseUrl : 'https://punkyproject-todokanban.herokuapp.com/',
     
-    
-    //TODO GROUPER DANS LE MEME PROJET QUE LE BACK
-    //TODO FINIR LES TAGS
+ 
     
     // fonction d'initialisation, lancée au chargement de la page
     init: () => {

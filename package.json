@@ -1,7 +1,7 @@
 {
-  "name": "okanban-back-olivierhachette",
+  "name": "ToDoKanban by @Punky",
   "version": "1.0.0",
-  "description": "## JOUR 2",
+  "description": "Application de Todo list",
   "main": "index.js",
   "directories": {
     "doc": "doc"

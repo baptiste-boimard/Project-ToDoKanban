@@ -16,3 +16,7 @@ Application de Todo Liste simple et personnalisable
 - [sortable](pour permettre les drag and drop)
 - [dotenv], [cors]; [multer] (middlewares divers)
 
+<img src="/public/images/ToDoKanban-Vue%20d'ensemble.png" alt="ToDoKanban"/>
+<img src="/public/images/ToDoKanban-Creation%20Liste.png" alt="ToDoKanban"/>
+<img src="/public/images/ToDoKanban-Edition%20Carte.png" alt="ToDoKanban"/>
+<img src="/public/images/ToDoKanban-Compatible%20Portable.png" alt="ToDoKanban"/>

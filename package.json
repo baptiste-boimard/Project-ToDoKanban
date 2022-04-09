@@ -1,6 +1,6 @@
 {
   "name": "ToDoKanban by @Punky",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Application de Todo list",
   "main": "index.js",
   "directories": {

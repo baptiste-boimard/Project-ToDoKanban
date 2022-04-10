@@ -5,7 +5,7 @@ const utilsModule = require('./utils');
 
 const app = {
     
-    baseUrl : 'https://localhost:3030/',
+    baseUrl : 'https://punkyproject-todokanban.herokuapp.com/',
     
  
     

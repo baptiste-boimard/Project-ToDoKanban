@@ -13,15 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/O-clock-Atome/oKanban-back-OlivierHachette.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/O-clock-Atome/oKanban-back-OlivierHachette/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/O-clock-Atome/oKanban-back-OlivierHachette#readme",
+  "engine": {
+    "node": "16.x"
+  },
+  "homepage": "",
   "dependencies": {
     "browserify": "^17.0.0",
     "cors": "^2.8.5",

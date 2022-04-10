@@ -127,7 +127,6 @@ const cardModule = {
         
         //lors de la création de la nouvelle carte, on fait évoluer les positions des
         //cartes existantes en incrémendant +1 et PATCH vlistModule.getAllListsFromAPI();
-ers l'API
         //récupé l'id de la liste
         const listId = Object.fromEntries(new FormData(event.target)).list_id;
         //récupére d'abord la liste

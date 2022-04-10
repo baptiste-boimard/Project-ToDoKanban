@@ -20,3 +20,4 @@ Application de Todo Liste simple et personnalisable
 <img src="/public/images/ToDoKanban-Creation%20Liste.png" alt="ToDoKanban"/>
 <img src="/public/images/ToDoKanban-Edition%20Carte.png" alt="ToDoKanban"/>
 <img src="/public/images/ToDoKanban-Compatible%20Portable.png" alt="ToDoKanban"/>
+<img src="/public/images/ToDoKanban-Drag%20and%20Drop.png" alt="ToDoKanban"/>

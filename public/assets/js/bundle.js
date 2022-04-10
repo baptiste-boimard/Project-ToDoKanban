@@ -63,7 +63,6 @@ const utilsModule = require('./utils');
 const Sortable = require('sortablejs');
 
 const cardModule = {
-    listModule.getAllListsFromAPI();
 
     url: null,
     setUrl: (baseUrl) => {

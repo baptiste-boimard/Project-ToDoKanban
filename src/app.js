@@ -16,8 +16,6 @@ const app = {
         listModule.setUrl(app.baseUrl);
         cardModule.setUrl(app.baseUrl);
         listModule.getAllListsFromAPI();
-
-
     },
    
 

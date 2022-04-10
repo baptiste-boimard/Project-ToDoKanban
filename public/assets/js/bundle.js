@@ -8,12 +8,11 @@ const utilsModule = require('./utils');
 
 
 const app = {
+    //Url = adresse donnée par heroku
+    baseUrl : 'https://punkyproject-todokanban.herokuapp.com/',
     
-    baseUrl : 'https://project-todokanban.herokuapp.com/:3030/',
     
-    
-    //TODO GROUPER DANS LE MEME PROJET QUE LE BACK
-    //TODO FINIR LES TAGS
+  
     
     // fonction d'initialisation, lancée au chargement de la page
     init: () => {
@@ -64,6 +63,7 @@ const utilsModule = require('./utils');
 const Sortable = require('sortablejs');
 
 const cardModule = {
+    listModule.getAllListsFromAPI();
 
     url: null,
     setUrl: (baseUrl) => {
@@ -127,7 +127,8 @@ const cardModule = {
         event.preventDefault();
         
         //lors de la création de la nouvelle carte, on fait évoluer les positions des
-        //cartes existantes en incrémendant +1 et PATCH vers l'API
+        //cartes existantes en incrémendant +1 et PATCH vlistModule.getAllListsFromAPI();
+ers l'API
         //récupé l'id de la liste
         const listId = Object.fromEntries(new FormData(event.target)).list_id;
         //récupére d'abord la liste
@@ -149,7 +150,8 @@ const cardModule = {
                 });
     
                 const data = await result.json();
-            
+                listModule.getAllListsFromAPI();
+
             } catch (error) {
                 console.log(error);
             };
@@ -173,7 +175,8 @@ const cardModule = {
             
         } catch (error) {
             console.log(error);
-        };
+        };listModule.getAllListsFromAPI();
+
         
         //Ferme le form
         utilsModule.hideModals();
@@ -194,7 +197,8 @@ const cardModule = {
                     body : formData,
                 });
                 
-            const data = await result.json();
+            const data = await result.json();listModule.getAllListsFromAPI();
+
             //maj du title de la card
             card.querySelector('#nameCard').textContent = data.title;
             card.style.backgroundColor = `${data.color}`;

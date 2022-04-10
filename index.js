@@ -1,6 +1,6 @@
 //les varaiables d'environnement
 require('dotenv').config();
-const PORT = process.env.PORT || 3030;
+const PORT = process.env.PORT || 3333;
 
 // const {Pool} = require('pg');
 // const pool = new Pool({
@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3030;
 // });
 
 //Express
-const express = require('express')
+const express = require('express');
 const app = express();
 
 //cors pour les fetch

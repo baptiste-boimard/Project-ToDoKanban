@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node-dev --no-notify index.js",
     "dev": "npx watchify -e ./src/app.js -o ./public/assets/js/bundle.js -d",
-    "production": "npx browserify -p tinyify -e ./public/src/app.js -o ./assets/js/bundle.js"
+    "production": "npx browserify -p tinyify -e ./src/app.js -o ./public/assets/js/bundle.js"
   },
   "repository": {
     "type": "git",
